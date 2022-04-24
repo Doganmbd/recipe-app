@@ -1,6 +1,8 @@
 import React,{useState} from "react";
 import { Nav, Logo, Menu, MenuLink, Hamburger } from "./NavbarStyle";
 
+
+
 const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false)
