@@ -9,7 +9,7 @@ export const MainContainer = styled.div`
   /* background: #e1f1dd; */
   height: fit-content;
   /* padding: 5px; */
-`;
+  `;
 
 export const RecipeCard = styled.div`
   /* search den sonra çıkan herbir yiyecek kart */
@@ -29,6 +29,12 @@ export const RecipeCard = styled.div`
     transition: all 0.3s ease-in;
     /* box-shadow: none özelliğinin yavaşça uygulanmasını sağlar; */
   }
+  `;
+  
+export const RecipeHeader = styled.h1`
+  /* kartlardaki yiyeceklerin adları */
+  font-size: 1.5rem;
+  text-align: center;
 `;
 
 export const RecipeImage = styled.img`
@@ -49,11 +55,6 @@ export const Button = styled.button`
   cursor: pointer;
 `;
 
-export const RecipeHeader = styled.h1`
-  /* kartlardaki yiyeceklerin adları */
-  font-size: 1.5rem;
-  text-align: center;
-`;
 
 export const ImgDiv = styled.div`
   /* anasayfadaki aşçı resminin en dış kutusu */
