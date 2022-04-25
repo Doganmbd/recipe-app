@@ -4,13 +4,15 @@ import mealSvg from "../../assets/meal.svg"
 
 const Login = () => {
 
+  const enterUser = {username : "bilal"}
+
 
   const handleSubmit = (e)=> {
     e.preventDefault()
     window.location.href = "/home"
 
     // sayfa da login işlemlerini yapmadan başka sayfaya geçilmesin.
-    
+    sessionStorage.setItem("user",JSON.stringify(enterUser))
    
   }
 
