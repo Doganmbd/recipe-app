@@ -20,6 +20,7 @@ const Home = () => {
     const result =await axios(URL)
     setFood(result.data.hits);
     console.log(result.data.hits);
+    console.log(result.data.hits.recipe);
     console.log(result.data.hits[0]);
     console.log(result.data.hits[0].recipe.image);
   }
@@ -32,7 +33,7 @@ const Home = () => {
         
         <MainContainer>
          {food.map((item,index)=> (
-           <RecipeImage  alt="yok" />
+           console.log(item.recipe)
          ))}
           
 
