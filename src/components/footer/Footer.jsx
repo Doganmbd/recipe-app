@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer-div">
       <a
-        href="https://github.com/AshleyMiller79"
+        href="https://github.com/Doganmbd"
         target="_blank"
         rel="noopener noreferrer"
         // Noreferrer etiketi önceleri noopener etiketiyle beraber kullanılan, target=”_blank” etiketinden gelebilecek tehditlere karşı sitenizi ve bilgisayarınızı korumak için noopener etiketiyle birlikte komut oluşturan etikettir. Güvenlik açıklarını kapatabilmek ve SEO çalışmalarına da katkıda bulunmak için noopenerle birlikte yazılan noreferrer, WordPress’in güvenliği iyileştirmeye yönelik yeni güncellemeleriyle kaldırıldı ve noopener etiketi tek başına kullanılmaya başlandı.
