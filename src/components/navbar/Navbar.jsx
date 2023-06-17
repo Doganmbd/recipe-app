@@ -24,6 +24,9 @@ const Navbar = () => {
         <MenuLink to="/about" onClick={() => setIsOpen(!isOpen)}>
           About
         </MenuLink>
+        <MenuLink to="/" onClick={() => setIsOpen(!isOpen)}>
+          Home
+        </MenuLink>
 
         <MenuLink
           onClick={() =>
