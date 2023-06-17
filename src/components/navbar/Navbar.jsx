@@ -21,7 +21,7 @@ const Navbar = () => {
       </Hamburger>
       {/* styleComponent in en önemli özelliklerinden biri prop gönderebiliyoruz. */}
       <Menu isOpen={isOpen}>
-        <MenuLink to="/" onClick={() => setIsOpen(!isOpen)}>
+        <MenuLink to="/" >
           Home
         </MenuLink>
         <MenuLink to="/about" onClick={() => setIsOpen(!isOpen)}>
